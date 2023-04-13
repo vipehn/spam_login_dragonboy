@@ -7,10 +7,10 @@ global zzz,is_start
 is_start=0
 zzz=[]
 
-host = "103.178.234.247"
+host = "103.67.196.163 "
 port = 80
 headers = """\
-POST /dangky.php HTTP/1.1\r
+POST /register.php HTTP/1.1\r
 Content-Type: application/x-www-form-urlencoded\r
 Content-Length: {content_length}\r
 Host: {host}\r
